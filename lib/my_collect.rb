@@ -5,4 +5,5 @@ def my_collect(array)
     ret.push yield(array[i])
     i += 1
   end
+  ret
 end
